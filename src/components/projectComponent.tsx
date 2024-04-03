@@ -4,7 +4,7 @@ export default function ProjectComponent() {
     <>
       <section className={style.project}>
         <div>
-          <div className={style.introBox}>PROJECT</div>
+          <div className={style.gamtan}>PROJECT</div>
         </div>
       </section>
     </>

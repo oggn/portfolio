@@ -1,0 +1,287 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/homeContainer.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.homeContainer_container__GiF1J {
+  max-width: 1440px;
+}
+.homeContainer_summary__GOPtK {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #132c33;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem 2rem;
+}
+.homeContainer_skills__fJN7M,
+.homeContainer_contact__uKCns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #132c33;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+.homeContainer_about__CJZog,
+.homeContainer_project__ubEJ6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  background: #fff;
+}
+.homeContainer_about__CJZog .homeContainer_gamtan__NJ8qS {
+  width: 100%;
+  font-size: 35px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.homeContainer_contact__uKCns .homeContainer_gamtan__NJ8qS {
+  width: 100%;
+  font-size: 35px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.homeContainer_project__ubEJ6 .homeContainer_gamtan__NJ8qS {
+  width: 100%;
+  font-size: 35px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.homeContainer_aboutArea___4eXl {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.homeContainer_leftArea__6ov96 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeContainer_rightArea__FkwT6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeContainer_area__j8F0_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.homeContainer_info__ceqyk {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.homeContainer_aboutTitle__mND_Z {
+  width: 4rem;
+  height: 5rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #132c33;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.homeContainer_aboutItem__aeFki {
+  width: 9rem;
+  height: 5rem;
+  font-size: 18px;
+  color: #132c33;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.homeContainer_introBox__0BKsb {
+  width: 100%;
+  font-size: 35px;
+  color: #132c33;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-family: "GamtanRoad_Gamtan" !important;
+}
+.homeContainer_intro__DS3Bu {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer_intro__DS3Bu p {
+  font-size: 20px;
+  padding: 5px;
+}
+.homeContainer_intro__DS3Bu p:first-child {
+  margin-top: 1rem;
+}
+.homeContainer_intro__DS3Bu p:last-child {
+  margin-bottom: 1rem;
+}
+.homeContainer_btnKnow__Ff6iY {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #132c33;
+  background: #fff;
+}
+.homeContainer_btnKnow__Ff6iY:hover {
+  background-color: #132c33;
+  color: #fff;
+}
+.homeContainer_footer__7D4Bv {
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.homeContainer_snsList__i1rrl {
+  display: flex;
+}
+
+.homeContainer_gitBg__7Dxi5 {
+  width: 150px;
+  height: 45px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.homeContainer_gitBg__7Dxi5 img {
+  width: 35px;
+}
+
+.homeContainer_skillBoxArea__JVVMT {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer_skillBox__NfX5g {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border-radius: 15px;
+  margin: 2rem;
+  padding: 1rem;
+}
+.homeContainer_skillTitle__hA4wb {
+  width: 100%;
+  height: 40px;
+  border-bottom: 2px solid #132c33;
+}
+.homeContainer_skillName__H99v_ {
+  font-size: 25px;
+  color: #132c33;
+}
+.homeContainer_skillList__UHqgz {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.homeContainer_skillImgDiv__yFE1y {
+  width: 50px;
+  height: 50px;
+  margin: 0.5rem;
+}
+.homeContainer_skillImg__OuE_L {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@font-face {
+  font-family: "GamtanRoad_Gamtan";
+  src: url(/_next/static/media/gamtan.9b76e96d.otf)
+    format("opentype");
+}
+.homeContainer_gamtan__NJ8qS {
+  font-family: "GamtanRoad_Gamtan" !important;
+}
+@keyframes homeContainer_typing__BUNhx {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes homeContainer_blink__V6yfv {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* 타블렛 */
+@media screen and (max-width: 1023px) {
+  .homeContainer_introBox__0BKsb,
+  .homeContainer_about__CJZog .homeContainer_gamtan__NJ8qS,
+  .homeContainer_project__ubEJ6 .homeContainer_gamtan__NJ8qS {
+    font-size: 20px;
+  }
+}
+/* 모바일 */
+@media screen and (max-width: 767px) {
+  .homeContainer_introBox__0BKsb,
+  .homeContainer_about__CJZog h1,
+  .homeContainer_project__ubEJ6 h1 {
+    font-size: 17px;
+  }
+  .homeContainer_skillBox__NfX5g {
+    width: 200px;
+    height: 500px;
+  }
+  .homeContainer_skillList__UHqgz {
+    justify-content: center;
+  }
+  .homeContainer_info__ceqyk {
+    width: 230px;
+  }
+  .homeContainer_aboutArea___4eXl {
+    margin-top: 0;
+  }
+}
+

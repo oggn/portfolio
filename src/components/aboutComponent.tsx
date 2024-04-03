@@ -6,7 +6,7 @@ export default function AboutComponent() {
         <div>
           <h1 className={style.gamtan}>ABOUT ME</h1>
         </div>
-        <div className={style.aboutArea}>
+        <div className={`${style.aboutArea} ${style.container}`}>
           <div className={style.leftArea}>
             <div className={style.area}>
               <div className={style.info}>

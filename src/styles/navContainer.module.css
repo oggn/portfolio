@@ -1,9 +1,15 @@
+.container {
+  max-width: 1440px;
+}
 .navDiv {
-  display: flex;
-  justify-content: space-around;
-  gap: 1rem;
   border-bottom: 1px solid #fff;
   background: #132c33;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .hamburgerDiv {
