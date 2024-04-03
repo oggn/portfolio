@@ -1,0 +1,226 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #132c33;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem 2rem;
+}
+.skills,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #132c33;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+.about,
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  background: #fff;
+}
+.about .gamtan {
+  width: 100%;
+  font-size: 35px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.contact .gamtan {
+  width: 100%;
+  font-size: 35px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.project .gamtan {
+  width: 100%;
+  font-size: 35px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.aboutArea {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.leftArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.aboutTitle {
+  width: 4rem;
+  height: 5rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #132c33;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aboutItem {
+  width: 9rem;
+  height: 5rem;
+  font-size: 18px;
+  color: #132c33;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.introBox {
+  width: 100%;
+  font-size: 35px;
+  color: #132c33;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-family: "GamtanRoad_Gamtan" !important;
+}
+.intro {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro p {
+  font-size: 20px;
+  padding: 5px;
+}
+.intro p:first-child {
+  margin-top: 1rem;
+}
+.intro p:last-child {
+  margin-bottom: 1rem;
+}
+.btnKnow {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #132c33;
+  background: #fff;
+}
+.btnKnow:hover {
+  background-color: #132c33;
+  color: #fff;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  background: #132c33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.snsList {
+  display: flex;
+}
+
+.gitBg {
+  width: 150px;
+  height: 45px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.gitBg img {
+  width: 35px;
+}
+@font-face {
+  font-family: "GamtanRoad_Gamtan";
+  src: url("../../public/fonts/gamtan_OTF/Gamtan_Gamtan-OTF/gamtan.otf")
+    format("opentype");
+}
+.gamtan {
+  font-family: "GamtanRoad_Gamtan" !important;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* 타블렛 */
+@media screen and (max-width: 1023px) {
+  .introBox,
+  .about .gamtan,
+  .project .gamtan {
+    font-size: 20px;
+  }
+}
+/* 모바일 */
+@media screen and (max-width: 767px) {
+  .introBox,
+  .about h1,
+  .project h1 {
+    font-size: 17px;
+  }
+}

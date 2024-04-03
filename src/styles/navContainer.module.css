@@ -1,0 +1,142 @@
+.navDiv {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  border-bottom: 1px solid #fff;
+  background: #132c33;
+}
+
+.hamburgerDiv {
+  padding: 8px;
+  border-radius: 8px;
+  background: #fff;
+  display: none;
+}
+
+.hamburger {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger .hamburgerSpan {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #132c33;
+  transition: all 0.3s ease;
+}
+
+.hamburgerSpan:first-child {
+  top: 0;
+}
+
+.hamburgerSpan:nth-child(2),
+.hamburgerSpan:nth-child(3) {
+  top: 50%;
+}
+
+.hamburgerSpan:last-child {
+  top: 100%;
+}
+
+.hamburgerSpan:first-child.active,
+.hamburgerSpan:last-child.active {
+  display: none;
+}
+
+.hamburgerSpan:nth-child(2).active {
+  transform: rotate(45deg);
+  background: #132c33;
+}
+
+.hamburgerSpan:nth-child(3).active {
+  transform: rotate(-45deg);
+  background: #132c33;
+}
+
+.navArea {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navArea .linkList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  padding: 20px 1rem;
+  position: relative;
+}
+.navArea .linkList:hover {
+  background: #fff;
+}
+.navArea .linkList:hover .link {
+  color: #132c33;
+}
+.portfolioLogo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  padding: 20px 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+/* 타블렛 */
+@media screen and (max-width: 1023px) {
+  .navDiv {
+    border: none;
+  }
+  .navArea {
+    width: 0;
+    height: 100dvh;
+    position: fixed;
+    right: 0;
+    z-index: 998;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #fff;
+    gap: 0.5rem;
+    list-style: none;
+    transition: all 0.5s ease-in;
+    overflow: hidden;
+  }
+
+  .navArea .linkList:hover {
+    background: #132c33;
+    border-radius: 15px;
+  }
+
+  .navArea .linkList:hover .link {
+    color: #fff;
+  }
+
+  .navArea .linkList:first-child {
+    margin-top: 3.5rem;
+  }
+
+  .navArea .linkList .link {
+    color: #132c33;
+  }
+
+  .hamburgerDiv {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: block;
+    z-index: 999;
+  }
+}
+/* 모바일 */
+@media screen and (max-width: 767px) {
+}
