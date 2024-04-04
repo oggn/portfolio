@@ -10,7 +10,7 @@ export default function ContactComponent() {
   };
   return (
     <>
-      <section className={style.contact}>
+      <section id="contactSection" className={style.contact}>
         <div>
           <div className={style.introBox}>CONTACT</div>
         </div>

@@ -1,8 +1,6 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import style from "../styles/navContainer.module.css";
-
 export default function NavContainer() {
   const [navTrueFalse, setNavTrueFalse] = useState(false);
   const navOpen = () => {
@@ -20,45 +18,66 @@ export default function NavContainer() {
     });
   }, [navTrueFalse]);
 
+  const smoothScroll = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 75,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <>
       <nav className={style.navDiv}>
         <div className={`${style.navList} ${style.container}`}>
           <ul>
-            <li className={style.portfolioLogo}>
-              <Link className={style.link} href="/">
-                oggn's portfolio
-              </Link>
+            <li
+              className={style.portfolioLogo}
+              onClick={() => smoothScroll("summarySection")}
+            >
+              <div className={style.link}>oggn's portfolio</div>
             </li>
           </ul>
           <ul
             className={style.navArea}
             style={{ minWidth: navTrueFalse ? "200px" : "0" }}
           >
-            <li className={style.linkList}>
-              <Link className={style.link} href="/">
-                Home
-              </Link>
+            <li
+              id="summary"
+              className={style.linkList}
+              onClick={() => smoothScroll("summarySection")}
+            >
+              <div className={style.link}>Home</div>
             </li>
-            <li className={style.linkList}>
-              <Link className={style.link} href="/about">
-                About
-              </Link>
+            <li
+              id="about"
+              className={style.linkList}
+              onClick={() => smoothScroll("aboutSection")}
+            >
+              <div className={style.link}>About</div>
             </li>
-            <li className={style.linkList}>
-              <Link className={style.link} href="/skills">
-                Skills
-              </Link>
+            <li
+              id="skills"
+              className={style.linkList}
+              onClick={() => smoothScroll("skillsSection")}
+            >
+              <div className={style.link}>Skills</div>
             </li>
-            <li className={style.linkList}>
-              <Link className={style.link} href="/project">
-                Project
-              </Link>
+            <li
+              id="project"
+              className={style.linkList}
+              onClick={() => smoothScroll("projectSection")}
+            >
+              <div className={style.link}>Project</div>
             </li>
-            <li className={style.linkList}>
-              <Link className={style.link} href="/contact">
-                Contact
-              </Link>
+            <li
+              id="contact"
+              className={style.linkList}
+              onClick={() => smoothScroll("contactSection")}
+            >
+              <div className={style.link}>Contact</div>
             </li>
           </ul>
           <div className={style.hamburgerDiv} onClick={navOpen}>

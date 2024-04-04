@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SkillsComponent() {
   return (
     <>
-      <section className={style.skills}>
+      <section id="skillsSection" className={style.skills}>
         <div>
           <div className={style.introBox}>SKILLS</div>
         </div>
@@ -216,7 +216,7 @@ export default function SkillsComponent() {
                   width={100}
                   height={100}
                   className={style.skillImg}
-                  src={"/img/vercel.png"}
+                  src={"/vercel.svg"}
                   alt="vercel"
                 />
               </div>

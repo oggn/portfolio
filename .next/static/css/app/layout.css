@@ -638,8 +638,12 @@ body {
   max-width: 1440px;
 }
 .navContainer_navDiv__fFDjB {
+  width: 100%;
   border-bottom: 1px solid #fff;
   background: #132c33;
+  position: fixed;
+  top: 0;
+  z-index: 9;
 }
 
 .navContainer_navList__kwHxy {
@@ -717,6 +721,7 @@ body {
   font-size: 22px;
   padding: 20px 1rem;
   position: relative;
+  cursor: pointer;
 }
 .navContainer_navArea__SXFNM .navContainer_linkList__Bpfl7:hover {
   background: #fff;
@@ -728,9 +733,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 22px;
-  padding: 20px 1rem;
   position: relative;
-  cursor: pointer;
 }
 
 /* 타블렛 */

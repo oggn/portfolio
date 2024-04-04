@@ -2,8 +2,12 @@
   max-width: 1440px;
 }
 .navDiv {
+  width: 100%;
   border-bottom: 1px solid #fff;
   background: #132c33;
+  position: fixed;
+  top: 0;
+  z-index: 9;
 }
 
 .navList {
@@ -81,6 +85,7 @@
   font-size: 22px;
   padding: 20px 1rem;
   position: relative;
+  cursor: pointer;
 }
 .navArea .linkList:hover {
   background: #fff;
@@ -92,9 +97,7 @@
   text-decoration: none;
   color: #fff;
   font-size: 22px;
-  padding: 20px 1rem;
   position: relative;
-  cursor: pointer;
 }
 
 /* 타블렛 */

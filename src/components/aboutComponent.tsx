@@ -2,7 +2,7 @@ import style from "../styles/homeContainer.module.css";
 export default function AboutComponent() {
   return (
     <>
-      <section className={style.about}>
+      <section id="aboutSection" className={style.about}>
         <div>
           <h1 className={style.gamtan}>ABOUT ME</h1>
         </div>
