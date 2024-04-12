@@ -237,7 +237,10 @@
   height: 100%;
   object-fit: contain;
 }
-
+.skillImgDiv:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease;
+}
 .projectBoxArea {
   max-width: 1100px;
   display: flex;
@@ -290,6 +293,41 @@
   image-rendering: -webkit-optimize-contrast;
   transform: translateZ(0);
   backface-visibility: hidden;
+}
+.projectExplanation {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectPDiv {
+  width: 195px;
+}
+.projectExplanation p {
+  color: #132c33;
+}
+.projectExList ul li {
+  color: #132c33;
+}
+.hrLine {
+  width: 100%;
+  height: 1px;
+  color: #132c33;
+  margin: 10px 0;
+}
+.projectLi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectLi span:first-child {
+  width: 100px;
+}
+.projectLi span:last-child {
+  width: 100px;
+  text-align: end;
 }
 #toTop {
   width: 42px;
@@ -377,5 +415,18 @@
   }
   .aboutArea {
     margin-top: 0;
+  }
+  .projectExplanation {
+    height: 100%;
+  }
+  .projectBox {
+    height: 100%;
+  }
+  .projectPDiv {
+    width: 170px;
+    margin-top: 10px;
+  }
+  .projectLi span:last-child {
+    width: 100%;
   }
 }
