@@ -338,6 +338,7 @@
   border-radius: 10px;
   cursor: pointer;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -353,12 +354,26 @@
 #toTop:hover .arrowUp {
   border-bottom: 10px solid #132c33;
 }
+
+#toTop:hover .arrowDown {
+  border-top: 10px solid #132c33;
+}
 .arrowUp {
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #fff;
+  margin-bottom: 3px;
+}
+
+.arrowDown {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  margin-top: 3px;
 }
 
 @font-face {
