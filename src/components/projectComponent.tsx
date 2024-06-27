@@ -23,7 +23,7 @@ export default function ProjectComponent() {
                       width={100}
                       height={100}
                       className={style.projectImg}
-                      src={"/img/web-portfolio.png"}
+                      src={project.pImg}
                       alt="web-portfolio"
                     />
                   </div>
